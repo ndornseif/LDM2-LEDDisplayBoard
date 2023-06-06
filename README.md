@@ -1,10 +1,14 @@
 # LDM2-LED Display Board
 Adapter board to drive HDSP-C2x1 common anode seven segment displays.  
+
 ## Overview
 This board can be mounted underneath a HSDP-C2x1 display to allow easy driving via MCU.  
 It uses a TPIC6C595 power shift register to control the display.  
 Resistor values are selected for a 10 - 13V LED supply.  
 Depending on module color it might be necessary to increase R8 for even brightness on the decimal point.
+Modules are designed for use with a LDM8E controller. 
+Find more info in this [repository](https://github.com/ndornseif/LDM8E-LEDDisplayController).
+
 ## Pinout
 All logic pins require a 5V high level. 
 - LED Drive: Input for 10 - 13V LED driving voltage.
@@ -17,5 +21,6 @@ All logic pins require a 5V high level.
 - Register CLR: Clear contents of shift register (active low).
 - Output ENA: Enable the output of the register (active low).
 Output ENA can be used for PWM dimming.
+
 ## Other
 Published under CERN-OHL-S license.

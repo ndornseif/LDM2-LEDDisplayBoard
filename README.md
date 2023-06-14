@@ -15,12 +15,12 @@ All logic pins require a 5 volt high level.
 - Digital VCC: Input for 5V logic supply voltage
 - Data IN: Serial data input to the shift register
 - Data OUT: Serial Data Output from Shift Register
-- Register CLK: Clock for the output register.   
-Use to apply changes to the display after data input.
-- Serial CLK: Shift register clock for serial data input.
-- GND: Digital and LED ground connection.
-- Register CLR: Clear the contents of the shift register (active low).
-- Output ENA: Enable the output of the register (active low).
+- Register CLK: Clock for the output register
+Use to apply changes to the display after data input
+- Serial CLK: Shift register clock for serial data input
+- GND: Digital and LED ground connection
+- Register CLR: Clear the contents of the shift register (active low)
+- Output ENA: Enable the output of the register (active low)  
 Output ENA can be used for PWM dimming.
 
 ## Other

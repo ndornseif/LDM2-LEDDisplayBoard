@@ -15,7 +15,7 @@ All logic pins require a 5 volt high level.
 - Digital VCC: Input for 5V logic supply voltage
 - Data IN: Serial data input to the shift register
 - Data OUT: Serial Data Output from Shift Register
-- Register CLK: Clock for the output register
+- Register CLK: Clock for the output register  
 Use to apply changes to the display after data input
 - Serial CLK: Shift register clock for serial data input
 - GND: Digital and LED ground connection
